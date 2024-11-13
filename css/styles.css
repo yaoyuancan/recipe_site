@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+  
+header {
+  background-color: #ef94d3e2;
+  padding: 1rem;
+  text-align: center;
+}
+
+#recipe-list {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#recipe-details {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin: 1rem;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 5px 0 0;
+  font-size: 0.9em;
+  color: #ffffff;
+  background-color: #ee2fdb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6f195b;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(205, 18, 167, 0.6);
+}
