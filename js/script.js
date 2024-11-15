@@ -9,11 +9,15 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentRecipe;
 
     function loadRecipes(recipes) {
+        let index = 0
         recipes.forEach((recipe) => {
             const button = document.createElement("button");
             button.textContent = recipe.name;
             button.addEventListener("click", () => displayRecipe(recipe));
             recipeList.appendChild(button);
+            if (index === 0)
+                displayRecipe(recipe)
+            index++
         });
     }
 
